@@ -1,0 +1,12 @@
+programs written in high level languages must be translated into machine language before they can be run. There are two primary ways this is done: compiling and interpreting
+C++ programs are usually compiled 
+
+to run first complile:
+- g++ -o firstprogram firstprogram.cpp
+- then./firstprogram
+
+
+
+Your compiler is using C++17 (language standard code 201703L)
+
+SKIPPED THE COMPILING AND BUILD SECTIONS
