@@ -10,4 +10,4 @@ int main()
     return 0;
 }
 
-// main ma nai
+// main ma nai last hai
