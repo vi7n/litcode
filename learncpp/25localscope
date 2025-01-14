@@ -2,3 +2,13 @@ lifetime is a runtime property, and scope is a compile-time property
 Temporary objects have no scope at all (this makes sense, since scope is a property of an identifier, and temporary objects have no identifier)
 
 As a reminder, the name of a variable (or function, type, or other kind of item) is called an identifier
+
+The one definition rule (ODR)
+
+The one definition rule (or ODR for short) is a well-known rule in C++. The ODR has three parts:
+
+1. Within a file, each function, variable, type, or template in a given scope can only have one definition. Definitions occurring in different scopes (e.g. local variables defined inside different functions, or functions defined inside different namespaces) do not violate this rule.
+2. Within a program, each function or variable in a given scope can only have one definition. This rule exists because programs can have more than one file (we’ll cover this in the next lesson). Functions and variables not visible to the linker are excluded from this rule (discussed further in lesson 7.6 -- Internal linkage)
+3. Types, templates, inline functions, and inline variables are allowed to have duplicate definitions in different files, so long as each definition is identical. We haven’t covered what most of these things are yet, so don’t worry about this for now -- we’ll bring it back up when it’s relevant.
+
+Violating part 1 of the ODR will cause the compiler to issue a redefinition error. Violating ODR part 2 will cause the linker to issue a redefinition error. Violating ODR part 3 will cause undefined behavior.
