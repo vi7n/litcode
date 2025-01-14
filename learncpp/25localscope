@@ -1,0 +1,4 @@
+lifetime is a runtime property, and scope is a compile-time property
+Temporary objects have no scope at all (this makes sense, since scope is a property of an identifier, and temporary objects have no identifier)
+
+As a reminder, the name of a variable (or function, type, or other kind of item) is called an identifier
