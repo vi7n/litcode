@@ -3,7 +3,7 @@ An object with a name is called a variable.
 
 did you learn the difference between defination and declaration?
 
-#include <iostream>
+#include <iostream>   <---- this is called preprocessor directive
 int main
 {
     int a;         // default-initialization (no initializer)
