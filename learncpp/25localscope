@@ -13,4 +13,4 @@ The one definition rule (or ODR for short) is a well-known rule in C++. The ODR 
 
 Violating part 1 of the ODR will cause the compiler to issue a redefinition error. Violating ODR part 2 will cause the linker to issue a redefinition error. Violating ODR part 3 will cause undefined behavior.
 
-
+The :: symbol is an operator called the scope resolution operator
