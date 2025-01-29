@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// lmao
 int main()
 {
     int num;
