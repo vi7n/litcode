@@ -1,0 +1,26 @@
+STL vitra sab data structure ko code hunxa
+
+initializing a vector: 
+
+- include <vector> instead of <bits/c++.h>
+- indivudual header file add gareko cleaner and better approach
+
+vector<int> vector_name
+vector<int> vector_name = {1,2,3}
+vector<int> vector_name(5,0)   <---- 5 size saab value zero
+
+g++ -std=c++11 code.cpp
+
+
+
+vector functions:
+- size : gives vector size
+vector_name.size()
+
+push_back
+pop_back
+front
+back
+at
+
+capacity() 
