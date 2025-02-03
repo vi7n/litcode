@@ -1,1 +1,17 @@
 NOTES :-
+
+
+1. length of array nikalne tarika: int n = sizeof(arr) / sizeof(arr[0]);
+    better tarika: n = nums.size()
+
+
+
+Ampersand (&) is used for 3 things:
+1. bitwise OR
+2. address of operator
+3. alias
+
+
+*
+1. to multiply
+2. dereference
