@@ -17,7 +17,7 @@ int main()
     }
     else
     {
-        cout << "neither upper nor lowercase";
+        cout << "lmao neither upper nor lowercase";
     }
 
     return 0;
