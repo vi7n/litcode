@@ -1,0 +1,60 @@
+class Solution {
+public:
+    int splitArray(vector<int>& nums, int k) {
+        int n = nums.size()-1;
+        int sum{0};
+        for(int i{0}; i<=n;i++)
+        {
+            sum += nums[i];
+        }
+
+        int start{0}, mid, ans{0}, end{};
+        end = sum;
+        while (start<=end)
+        {
+            mid = start + (end-start)/2;
+            if (isValid(nums, mid, k))
+            {
+                std::cout<<"true"<<std::endl;
+                end = mid - 1;
+                ans = mid;
+            }
+            else
+            {
+                std::cout<<"false"<<std::endl;
+                start = mid + 1;
+            }
+
+            
+        }
+        return ans;
+        
+    }
+
+private: 
+    // Helper functions go here
+    bool isValid(vector<int>& nums, int x, int k)
+    { 
+        int curSum {0}, subsum{1};
+        int n = nums.size()-1;
+        for(int i = 0;i<=n;i++) 
+        {
+            if ((nums[i] > x) || (subsum > k)) return false;
+            curSum += nums[i];
+            if (curSum > x)
+            {
+                // if (i==n) return true;
+                i--;
+                curSum = 0;
+                subsum ++;
+            }
+            if (curSum == x)
+            {
+                curSum = 0;
+                subsum ++;
+            }
+        }
+        // if (subsum  k) return false;
+        return true;
+    }
+};
