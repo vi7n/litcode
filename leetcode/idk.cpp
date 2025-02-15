@@ -7,5 +7,3 @@ using namespace std
     int i = 5;
     int a return 0;
 }
-
-// what
