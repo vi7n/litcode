@@ -18,7 +18,7 @@ public:
     }
 };
 
-// This code wasn't wotking because of the nums.size thing that I did. nums.size()-i means j will never reach the last element of the vector
+// This code wasn't working because of the nums.size thing that I did. nums.size()-i means j will never reach the last element of the vector
 
 // class Solution {
 // public:
