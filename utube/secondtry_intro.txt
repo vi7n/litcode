@@ -118,3 +118,101 @@ do {
 
 loop chalauda range 0 ya 1 better hunxa sochney
 ani ascending order ma chalaune ki descending ma pani bujhney
+
+
+
+
+RUNNING CODE IN VSCODE
+
+g++ -o outputfilename .\codefilename.cpp
+.\outputfilename.exe 
+
+
+
+
+
+
+FUNCTION
+
+returnType funName(type p1, type p2 ...){
+    // do something
+    return ans; // if not void
+}
+
+Pass my value:
+copy of argument is passed to function 
+ 
+
+when passing primitive data types they are passed by values
+others like Vector, Linkedlist,and Stack are passed by reference which we'll later when we"ll get into that
+
+
+
+
+
+
+1's complement:
+- 1->0
+- 0->1
+
+2's complement:
+- 1's complement 
+- plus 1
+
+
+
+
+BITWISE OPERATORS
+
+1. Bitwise &   AND
+
+
+2. Bitwise |    OR
+
+
+3. Bitwise ^   XOR
+
+
+4. bitwise left shift operator  <<
+a << b is basically a*(2(^b))
+
+
+5. bitwise right shift operator  >>
+in this case a>>b  aka ans = a/(2^b)
+
+
+
+
+
+
+operator Precedence:
+!, +, - (unary operator)      first (R to L)
+*,/,%                         second (L to R)
++, -                          third (L to R)
+<,<=,>=,>                     fourth (L to R)
+==, !=                        fifth (L to R)
+&&                            sixth (L to R)
+||                            seventh (L to R)
+= (assignment operator)       last (R to L)
+
+
+
+Scope
+1. Local 
+2. Global 
+
+
+
+Data Type Modifiers
+change meaning of existing data types
+
+- long      : gives greater than 4 bytes
+- short     : 2 bytes (jastai human age)
+- long long :  
+- signed    : positive ni huna sakxa, negative ni huna sakxa, yo normally sab variable ko default hunxa
+- unsigned  : thavako bela ki positive matra ho ki negative, jastai customer id ko lagi use garyeu vane double quantity store grna sakinxa
+
+
+integer ko range 
+positive: 0 to (2^31)-1
+negative: -2^31
