@@ -1,0 +1,79 @@
+video 2:
+
+variables:
+int 4 byte
+char 1 byte
+float 4 bytes
+bool 1 byte
+double 8 bytes
+
+these are called primitive datatypes
+arrays and such are non-primitive which we'll talk about later
+
+
+
+
+
+
+
+
+
+TypeCasting:
+
+two types: conversion and TypeCasting
+
+conversion is implicit process aka the compiler does in
+like if we wanna fit a small data type in a bigger data
+like int into double
+or converting character into int
+like A if put into an int is gonna be 65 as A's askii value is 65
+
+
+casting is explicit. 
+means programmer does this manually
+
+used for converting big to small data type
+
+example:
+
+double price = 200.99
+int newPrice = (int)price;
+
+cout newPrice will give us 200
+
+
+
+
+
+
+
+
+
+OPERATORS:
+
+arithmetic: +, -, *, /, %
+relational: <, <=, >, >=, ==, !=
+Logical: OR ||, AND &&, NOT !
+
+UNARY OPERATORS:
+increment: ++
+decrement: --
+
+a++ paila kaam paxi update
+++a paila update paxi kaam
+
+
+
+
+
+
+
+Conditional Statements
+
+if-else:
+
+if (n>0){
+    cout << "n is positive\n";
+} else {
+    cout << "n is negative\n"; 
+}

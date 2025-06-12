@@ -1,6 +1,11 @@
 programs written in high level languages must be translated into machine language before they can be run. There are two primary ways this is done: compiling and interpreting
 C++ programs are usually compiled 
 
+
+C++, java, python is case sensitive
+SQL and HTML is not case sensitive
+
+
 to run first complile:
 - g++ -o firstprogram firstprogram.cpp
 - then./firstprogram
