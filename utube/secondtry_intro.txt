@@ -74,6 +74,47 @@ if-else:
 
 if (n>0){
     cout << "n is positive\n";
+} else if (n == 0) {
+    cout << "n is zero\n"; 
 } else {
-    cout << "n is negative\n"; 
+    cout << "n is negative\n";
 }
+
+
+Ternary Statements
+condition ? statement 1 : statement2;
+
+condition true vaye st1 chalxa natra st2
+
+
+
+
+
+
+
+
+Loops:
+
+while(condition){
+    statements
+}
+
+
+for (initialization;condition;updation){
+    //statements
+}
+
+eg.
+for(int i = 0; i<=10; i++)
+
+
+
+do while loop
+
+do {
+    //statements
+} while(i<=n);
+
+
+loop chalauda range 0 ya 1 better hunxa sochney
+ani ascending order ma chalaune ki descending ma pani bujhney
