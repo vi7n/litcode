@@ -216,3 +216,75 @@ change meaning of existing data types
 integer ko range 
 positive: 0 to (2^31)-1
 negative: -2^31
+
+
+Algorithms are basically ways of performing efficient operations
+
+
+
+
+Arrays:
+- can only store same data type
+- array is contiguous (ek paxi arko in terms of memory, sequentially) in memory and linear
+
+
+sizeof(arrayName) gives total space taken by the array
+
++ infinity = INT_MAX
+- infinity = INT_MIN
+
+min(a,b), max(a,b)
+
+
+
+
+
+Pass by reference:
+
+array lai pathaye vane tyesma function le greko change main ma ni dekhinxa
+
+
+Vectors: basically array but it's dynamic aka the size is changable
+
+STL Standard Template Library
+multiple data structures are implemented
+so we use the data structures from STL as a tool
+
+vector, queue, stack, set: are all STL containers
+
+
+
+Initializing a vector:-
+- vector <int> vec;
+- vector <int> vec = {1,2,3};
+- vector <int> vec(3,0);        <- first value is size and second is what value is at indexes
+
+
+
+we create a special for each loop for vector
+for ( int i: vectorName)
+
+here i is not the index but the valuie stored at that index
+
+
+
+functions associated with vectors:-
+1. vectorName.size()
+2. vectorName.push_back(whateverIwannaadd)    aka stack ko push
+3. vectorName.pop_back()                    removes last element like stack pop 
+4. vectorNamefront()                    <- gives front value
+5. vectorName.at(3)                        <- gives value at index 3
+
+
+
+
+
+
+Static vs Dynamic Allocation
+Static vaneko compile time ma allocate hunxa
+Dynamic allocation of memory hunxa run timema
+
+we got 2 kind of memory: stack and heap
+static allocation happens in stack
+dynamic allocation happens in heap
+
