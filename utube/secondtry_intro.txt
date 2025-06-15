@@ -288,3 +288,10 @@ we got 2 kind of memory: stack and heap
 static allocation happens in stack
 dynamic allocation happens in heap
 
+
+
+vector ma naya element push gare jaile ni size double grxa rah naya element add grxa
+yesle garda size le number of elements dinxa rah capacity le as name suggests total capacity dinxa
+vectorName.capacity() le hamilai space dinxa
+
+

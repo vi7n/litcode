@@ -1,0 +1,7 @@
+video9
+
+Hamile yedi pass by value ko sato pass by reference nai garnu xa vaney container (vector in this case) name ko agadi & halne
+example:
+int singleNumber(vector<int>& nums)
+
+  heheheheheh
