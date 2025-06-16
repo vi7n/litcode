@@ -1,0 +1,6 @@
+Leetcode 20: Valid Parentheses
+
+basics of stack 
+- initiating
+-  lookup
+
