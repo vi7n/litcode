@@ -1,0 +1,24 @@
+Leetcode 217: Contains Duplicate
+- Hashset intro rah basics, initialize with hashSet = set()
+
+
+Leetcode 242: Valid Anagram
+- .get(a,b) vanya k hunxa: hashmap ma use hunxa, a lyauna khojxa tara a exist gardaina vaney b aka default value lyauxa so that error na falos
+- countS[s[i]] = 1 + countS.get(s[i],0)
++ sabai sorting algorithm tha hunu parxa
+
+Leetcode 1: Two Sum
+- Hash set use garne rah one by one add garney
+
+
+Leetcode 49: Group Anagrams
+- tuple
+- ord("a") gives the askii vaalue of the letter
+
+
+Leetcode 347: Top K frequent elements
+- dami solution xa
+- heap le kasari solve grni 
+
+
+Leetcode 
