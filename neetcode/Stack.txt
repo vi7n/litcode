@@ -1,6 +1,40 @@
 Leetcode 20: Valid Parentheses
 
 basics of stack 
-- initiating
--  lookup
+- initiating (in [] when empty, {"key":"value"} when giving values)
+- lookup
 
+
+Leetcode 155: Min Stack
+
+- self kaba use garne
+- ani class ko template k hunxa
+
+Leetcode 150: Evaluate Reverse Polish Notation
+
+- statement ma kasri operation halne vanney kura ma confuse hunxu.
+  harek operation ko lagi naya if lekheko xa
+
+
+Leetcode 22: Generate Parantheses
+- yeso padhda lastai aade lagne question ho
+- yesma tree rah backtrack bare tha hunu parxa
+- "".join(stack) le stack ma vako sabai elements lai concatanate gar dinxa. "" ko sato "-" vako vaye, harek item bich - authyo
+- 3rd if case ko condition ma jaile ni mistake garinxa
+
+
+
+Leetcode 739: Daily Temperatures
+- yo ni alik aade qyestion xa
+- enumerate use grna aunu parxa
+- ekdum choto mitho smart solution xa
+
+
+Leetcode 853: Car Fleet
+- zip vanya k ho tha hunu parxa
++ unzip grna lai: zip(*zipped) where zipped is the zipped tuple
++ 2 ta list zip grda euta ma element kum xa vane arko ma vako extra ignore hunxa
+
+
+Leetcode 84: Largest rectangle in Histogram
+- 
