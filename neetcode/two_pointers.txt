@@ -1,0 +1,16 @@
+- In Python if you can call another function inside a object, you have to use the self. function
+- loop chalauda intuitive use gareko rmro like l and r for left and right insted of i, or a,b or c
+- step by step socheko ramro, rah pseudocode help grxa, so paila sabai write out gre rmro
+
+
+
+Leetcode 125: Valid Palindrome
+- is.alnum()     <-  checks if the item is a alphanumeric 
+- sometimes this is not allowed to use
+- ord('A') : gives ASCII value of A 
+- so the condition looks like: ord('A') <= ord(c) <= ord('Z'), where c is is basically each character in the string
+ 
+
+
+Leetcode 15: 3Sum
+- 2sum 1 rah 2 grya xa vaney sajilo hunxa
