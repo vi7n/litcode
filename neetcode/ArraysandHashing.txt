@@ -23,7 +23,7 @@ Leetcode 347: Top K frequent elements
 
 Leetcode 238: Product of array except self
 - len(nums) le total number of elements primt garxa
-
+- 2ta extra banauna ko sato direct result ma ek ek gari hale ni hunxa
 
         ===========================
         PYTHON RANGE & SLICING CHEAT SHEET
@@ -90,3 +90,5 @@ Leetcode 238: Product of array except self
         ===========================
         Tip: Use range and slicing mindfully!
         ===========================
+
+Leetcode 

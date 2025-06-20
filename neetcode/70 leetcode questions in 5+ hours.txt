@@ -1,0 +1,17 @@
++ is my idea
+
+
+
+Leetcode 217:
+
++ can use length of set and length of string to make sure if there's any Duplicate O(n)
++ can sort and we can see compare two values using 2 pointers O(nlogn)
++ can create a hash map. check if item exists in hash map and then add the item
+
+
+Leetcode 268: Missing number
+- can use difference of expected sum - sum of nums
+
+
+
+Leetcode 448: 
