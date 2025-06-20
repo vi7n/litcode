@@ -15,3 +15,9 @@ Leetcode 268: Missing number
 
 
 Leetcode 448: 
+
+
+
+Leetcode 1266:
+- answer += max(abs(x2-x1),abs(y2-y1))
+- time taken is the max difference in just the co-ordinate
