@@ -1,0 +1,8 @@
+- in python to get only int as an answer we gotta use (left-right)//2. this makes sure we don't get float
+
+
+Leetcode 153: find minimum in rotatyed sorted array
+- compare mid with left or right
+
+Leetcode 33: search rotated sorted array (needs review)
+- left can be equal to mid as well
