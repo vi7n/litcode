@@ -1,0 +1,7 @@
+Leetcode 3: Longest substring without repeating characters
+
+- neat solution
+- kun pointer thau ma halne kun halaune le question solve grxa
+- set ma xa ki xaina vani for r in meroSet: hunxa not meroSet()
+- hashset ma append hudaina, add hunxa
+
