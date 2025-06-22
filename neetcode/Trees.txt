@@ -1,2 +1,7 @@
 Leetcode 226: invert a binay tree
 - 
+
+Leetcode   : Maximum depth of a binary tree
+- easiest to do using recursion
+- but can be done by iterative dfs as well as iterative bfs  
+
