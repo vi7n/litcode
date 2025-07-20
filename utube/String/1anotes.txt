@@ -1,0 +1,14 @@
+queue<string> queue
+    que.push()
+    que.size(): total elements in the queue
+    !que.empty(): used to check in the queue is empty
+    que.pop()
+    que.front(): agadi ko item variable ma halna lai
+
+
+
+
+unordered_set<string> st
+    st.contains()
+    st.insert()
+    st.erase()
