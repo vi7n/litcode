@@ -19,6 +19,7 @@ public:
 
             curr[i] = inc;
             if (st.find(curr) == st.end())
+            // if(!st.contains(curr))
             {
                 st.insert(curr);
                 que.push(curr);
