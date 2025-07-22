@@ -1,0 +1,69 @@
+CODERPAD SANDBOX :
+
+#include <iostream> // for std::cout, std::endl
+// #include <string>     // for std::string
+#include <vector> // for std::vector
+    // #include <algorithm>  // for std::max
+    using namespace std;
+
+int characterReplacement(const string &s, int k)
+{
+    int maxLen = 0, maxCount = 0, left = 0;
+    vector<int> freq(26, 0); // vector of size 26, each initiated to 0
+
+    for (int right = 0; right < static_cast<int>(s.length()); ++right)
+    {
+        freq[s[right] - 'A']++;
+        maxCount = max(maxCount, freq[s[right] - 'A']);
+
+        while ((right - left + 1) - maxCount > k)
+        {
+            freq[s[left] - 'A']--;
+            left++;
+        }
+
+        maxLen = max(maxLen, right - left + 1);
+    }
+
+    return maxLen;
+}
+
+int main()
+{
+    // Solution sol;
+    string s = "AABAABACA";
+    int k = 2;
+    cout << "Result: " << characterReplacement(s, k) << endl; // Expected output: 4
+    return 0;
+}
+
+LEETCODE :
+
+    class Solution
+{
+public:
+    int characterReplacement(string s, int k)
+    {
+        int left = 0;
+        int right = 0;
+        int maxCount = 0;
+        int maxLength = 0;
+
+        vector<int> freq(26, 0);
+
+        while (right < s.length())
+        // for (int right = 0; right < static_cast<int>(s.length());
+        {
+            freq[s[right] - 'A']++;
+            maxCount = max(maxCount, freq[s[right] - 'A']);
+            while ((right - left + 1) - maxCount > k)
+            {
+                freq[s[left] - 'A']--;
+                left++;
+            }
+            maxLength = max(maxLength, right - left + 1);
+            right++;
+        }
+        return maxLength;
+    }
+};

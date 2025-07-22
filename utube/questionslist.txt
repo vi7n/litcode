@@ -2,9 +2,9 @@ Tier 1 – Core High-Yield Problems (≈40)
 Strings (8)
 [✔]    Longest Substring Without Repeating Characters – canonical sliding window / hash index.
 
-Longest Repeating Character Replacement – sliding window w/ max freq maintenance (tolerance k).
+[✔]    Longest Repeating Character Replacement – sliding window w/ max freq maintenance (tolerance k).
 
-Minimum Window Substring – bi-directional counts; hardest window pattern.
+[HARD]    Minimum Window Substring – bi-directional counts; hardest window pattern.
 
 Group Anagrams – hashing canonical form; unordered_map usage.
 
@@ -16,7 +16,11 @@ Roman to Integer – parsing with lookahead; table-driven pattern.
 
 Evaluate Reverse Polish Notation – stack expression evaluation (typing, error checks).
 
+
+
+
 Grid DFS/BFS (4)
+
 Number of Islands – flood-fill template (DFS/BFS, mark visited).
 
 Rotting Oranges – multi-source BFS + time layers.
@@ -25,7 +29,11 @@ Rotting Oranges – multi-source BFS + time layers.
 
 Pacific Atlantic Water Flow – reverse-flow BFS/DFS from borders; teaches “search from destination set.”
 
+
+
+
 Arrays / Two-Pointer & Prefix (8)
+
 3Sum – sort + two-pointer + de-dup.
 
 Subarray Sum Equals K – prefix sum + hash counts (handles negatives).
@@ -176,3 +184,10 @@ Binary Tree Right Side View ← BFS depth capture.
 Path Sum III ← prefix sum path counts in tree.
 
 Convert Sorted Array to BST ← recursive divide; BST invariants.
+
+
+
+HARD PROBLEMS:
+
+716 · Max Stack (and occasionally 
+895 · Maximum Frequency Stack)
