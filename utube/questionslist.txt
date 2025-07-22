@@ -6,15 +6,15 @@ Strings (8)
 
 [HARD]    Minimum Window Substring – bi-directional counts; hardest window pattern.
 
-Group Anagrams – hashing canonical form; unordered_map usage.
+[✔]    Group Anagrams – hashing canonical form; unordered_map usage.
 
-Decode String – stack of counts/strings; nested state machine.
+[✔]    Decode String – stack of counts/strings; nested state machine.
 
-Longest Palindromic Substring – expand-around-center DP idea.
+[✔]    Longest Palindromic Substring – expand-around-center DP idea.
 
-Roman to Integer – parsing with lookahead; table-driven pattern.
+[✔]    Roman to Integer – parsing with lookahead; table-driven pattern.
 
-Evaluate Reverse Polish Notation – stack expression evaluation (typing, error checks).
+[✔]    Evaluate Reverse Polish Notation – stack expression evaluation (typing, error checks).
 
 
 
