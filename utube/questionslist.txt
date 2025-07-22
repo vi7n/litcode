@@ -1,0 +1,178 @@
+Tier 1 – Core High-Yield Problems (≈40)
+Strings (8)
+[✔]    Longest Substring Without Repeating Characters – canonical sliding window / hash index.
+
+Longest Repeating Character Replacement – sliding window w/ max freq maintenance (tolerance k).
+
+Minimum Window Substring – bi-directional counts; hardest window pattern.
+
+Group Anagrams – hashing canonical form; unordered_map usage.
+
+Decode String – stack of counts/strings; nested state machine.
+
+Longest Palindromic Substring – expand-around-center DP idea.
+
+Roman to Integer – parsing with lookahead; table-driven pattern.
+
+Evaluate Reverse Polish Notation – stack expression evaluation (typing, error checks).
+
+Grid DFS/BFS (4)
+Number of Islands – flood-fill template (DFS/BFS, mark visited).
+
+Rotting Oranges – multi-source BFS + time layers.
+
+01 Matrix – BFS shortest distance to nearest zero (queue layering).
+
+Pacific Atlantic Water Flow – reverse-flow BFS/DFS from borders; teaches “search from destination set.”
+
+Arrays / Two-Pointer & Prefix (8)
+3Sum – sort + two-pointer + de-dup.
+
+Subarray Sum Equals K – prefix sum + hash counts (handles negatives).
+
+Product of Array Except Self – prefix/suffix sweep, O(1) extra space.
+
+Minimum Size Subarray Sum – sliding window for ≥ target (positives).
+
+Search in Rotated Sorted Array – modified binary search invariants.
+
+Trapping Rain Water – two-pointer vs. prefix-max arrays; spatial reasoning.
+
+Merge Intervals – sort + merge sweep; interval reasoning.
+
+Sliding Window Maximum – deque monotonic queue pattern.
+
+Graph / Topological & Shortest-Path (6)
+Course Schedule – detect cycle via topo indegree; core DAG pattern.
+
+Course Schedule II – topo ordering output variant.
+
+Clone Graph – BFS/DFS with hash map for aliasing.
+
+Reconstruct Itinerary – Eulerian path / lexical priority using multiset graph.
+
+Network Delay Time – Dijkstra w/ priority_queue.
+
+Alien Dictionary – topo from precedence constraints + cycle detect.
+
+LRU / Small-Scale Design (4)
+LRU Cache – doubly-linked list + hash; eviction pattern.
+
+LFU Cache – freq buckets + LRU ties; multi-level bookkeeping.
+
+Hit Counter – sliding time window; queue or circular buffer.
+
+Design Underground System – start/stop timestamp aggregation; map of active trips + stats.
+
+Heap / Selection (4)
+Kth Largest Element in an Array – heap vs. quickselect trade-offs.
+
+Find Median from Data Stream – two heaps w/ balance.
+
+Top K Frequent Elements – frequency map + heap / bucket.
+
+Task Scheduler – greedy counts + idle slots or heap simulation.
+
+Tree Recursion & BST (6)
+Binary Tree Level Order Traversal – BFS pattern for trees (foundation).
+
+Validate Binary Search Tree – passing value ranges; recursion invariants.
+
+Lowest Common Ancestor of a Binary Tree – postorder recursion returning flags.
+
+Serialize and Deserialize Binary Tree – pre/post/level encodings; null sentinels.
+
+Diameter of Binary Tree – depth recursion returning (height, diameter).
+
+Kth Smallest Element in a BST – inorder traversal / stack; order stats.
+
+
+
+
++++++++++++++++++++++++++++++
+=============================================================================================
+=============================================================================================
++++++++++++++++++++++++++++++
+
+
+
+
+Tier 2 – Variants & Reinforcement Problems
+(Group these by the Tier-1 problem they extend. Use them as “extra reps” if you finish Tier-1 early, or to stress-test understanding.)
+
+Strings → Variants
+[✔] Valid Parentheses ← quick stack warm-up for Decode String.
+
+String Compression ← two-pointer write index; in-place pattern.
+
+Multiply Strings ← manual big-int multiply; indexing loops (good C++ string/vec practice).
+
+Find the Index of the First Occurrence in a String (KMP optional) ← pattern-matching variant.
+
+Zigzag Conversion ← coordinate mapping exercise.
+
+Integer to Roman ← inverse of Roman to Integer.
+
+Remove All Adjacent Duplicates in String ← stack/2-pointer deletion.
+
+Grid → Variants
+Max Area of Island ← Number of Islands but track component size.
+
+Walls and Gates ← multi-source BFS with obstacles.
+
+Surrounded Regions ← flood from borders to protect cells.
+
+Shortest Path in Binary Matrix ← BFS with 8-dirs + distance count.
+
+Island Perimeter ← counting edges after flood fill.
+
+Escape Large Maze ← BFS with pruning / boundary conditions.
+
+Arrays → Variants
+3Sum Closest ← tweak scoring in 3Sum.
+
+Kth Missing Positive Number ← binary search gaps; sorted arr reasoning.
+
+Container With Most Water ← two-pointer area maximization.
+
+Best Time to Buy and Sell Stock II ← greedy accumulation; pattern for profit scanning.
+
+Longest Consecutive Sequence ← hash set sequence growth.
+
+Insert Delete GetRandom O(1) ← design (hash + array) pattern linking to LRU/LFU.
+
+Graph → Variants
+Keys and Rooms ← reachability BFS (Clone Graph light).
+
+Minimum Height Trees ← trim leaves (topo peel) variant of Course Schedule thinking.
+
+Dijkstra’s Shortest Path in Grid (#1514 Path w/ Max Prob) ← weighted traversal variant.
+
+Evaluate Division ← graph w/ edge weights; BFS or union-find ratio composition.
+
+Design → Variants
+Design Circular Deque ← index arithmetic; container mgmt.
+
+Design Twitter ← feed merge (heap + timestamps).
+
+Logger Rate Limiter ← throttling variant of Hit Counter.
+
+Moving Average from Data Stream ← fixed-size queue + running sum.
+
+Heap / Selection → Variants
+Merge k Sorted Lists ← k-way heap merge; memory mgmt in C++.
+
+K Closest Points to Origin ← bounded heap pattern.
+
+Reorganize String ← max-heap char counts; adjacency constraint.
+
+Sliding Window Median ← two heaps + lazy deletion.
+
+Trees → Variants
+Binary Tree Zigzag Level Order Traversal ← Level Order + direction flag.
+
+Binary Tree Right Side View ← BFS depth capture.
+
+Path Sum III ← prefix sum path counts in tree.
+
+Convert Sorted Array to BST ← recursive divide; BST invariants.

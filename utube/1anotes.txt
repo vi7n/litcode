@@ -7,8 +7,20 @@ queue<string> queue
 
 
 
-
 unordered_set<string> st
     st.contains()
     st.insert()
     st.erase()
+
+
+stack<char> st;
+    st.top()
+    st.push()
+    st.empty()
+    st.pop()
+
+
+vector vaneko dynamic array
+vector<int> freq(26,0);  //creates a vector names freq that has 26 elements, each initiated to 0
+    freq.size();
+    freq.push_back()
