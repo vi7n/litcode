@@ -119,7 +119,7 @@ Tier 2 – Variants & Reinforcement Problems
 (Group these by the Tier-1 problem they extend. Use them as “extra reps” if you finish Tier-1 early, or to stress-test understanding.)
 
 Strings → Variants
-[✔] Valid Parentheses ← quick stack warm-up for Decode String.
+[✔]    Valid Parentheses ← quick stack warm-up for Decode String.
 
 String Compression ← two-pointer write index; in-place pattern.
 
@@ -134,15 +134,15 @@ Integer to Roman ← inverse of Roman to Integer.
 Remove All Adjacent Duplicates in String ← stack/2-pointer deletion.
 
 Grid → Variants
-Max Area of Island ← Number of Islands but track component size.
+[✔]    Max Area of Island ← Number of Islands but track component size.
 
-Walls and Gates ← multi-source BFS with obstacles.
+[✔]    Walls and Gates ← multi-source BFS with obstacles.
 
-Surrounded Regions ← flood from borders to protect cells.
+[✔]    Surrounded Regions ← flood from borders to protect cells.
 
 Shortest Path in Binary Matrix ← BFS with 8-dirs + distance count.
 
-Island Perimeter ← counting edges after flood fill.
+[✔]    Island Perimeter ← counting edges after flood fill.
 
 Escape Large Maze ← BFS with pruning / boundary conditions.
 
