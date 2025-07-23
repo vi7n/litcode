@@ -18,6 +18,7 @@ stack<char> st;
     st.push()
     st.empty()
     st.pop()
+    st.size()
 
 
 vector vaneko dynamic array

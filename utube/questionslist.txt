@@ -21,13 +21,13 @@ Strings (8)
 
 Grid DFS/BFS (4)
 
-Number of Islands – flood-fill template (DFS/BFS, mark visited).
+[✔]    Number of Islands – flood-fill template (DFS/BFS, mark visited).
 
-Rotting Oranges – multi-source BFS + time layers.
+[✔]    Rotting Oranges – multi-source BFS + time layers.
 
-01 Matrix – BFS shortest distance to nearest zero (queue layering).
+[✔]    01 Matrix – BFS shortest distance to nearest zero (queue layering).
 
-Pacific Atlantic Water Flow – reverse-flow BFS/DFS from borders; teaches “search from destination set.”
+[✔]    Pacific Atlantic Water Flow – reverse-flow BFS/DFS from borders; teaches “search from destination set.”
 
 
 
@@ -50,6 +50,8 @@ Merge Intervals – sort + merge sweep; interval reasoning.
 
 Sliding Window Maximum – deque monotonic queue pattern.
 
+
+
 Graph / Topological & Shortest-Path (6)
 Course Schedule – detect cycle via topo indegree; core DAG pattern.
 
@@ -63,6 +65,10 @@ Network Delay Time – Dijkstra w/ priority_queue.
 
 Alien Dictionary – topo from precedence constraints + cycle detect.
 
+
+
+
+
 LRU / Small-Scale Design (4)
 LRU Cache – doubly-linked list + hash; eviction pattern.
 
@@ -71,6 +77,10 @@ LFU Cache – freq buckets + LRU ties; multi-level bookkeeping.
 Hit Counter – sliding time window; queue or circular buffer.
 
 Design Underground System – start/stop timestamp aggregation; map of active trips + stats.
+
+
+
+
 
 Heap / Selection (4)
 Kth Largest Element in an Array – heap vs. quickselect trade-offs.
