@@ -34,7 +34,7 @@ Grid DFS/BFS (4)
 
 Arrays / Two-Pointer & Prefix (8)
 
-3Sum – sort + two-pointer + de-dup.
+[✔]    3Sum – sort + two-pointer + de-dup.
 
 Subarray Sum Equals K – prefix sum + hash counts (handles negatives).
 
@@ -53,9 +53,9 @@ Sliding Window Maximum – deque monotonic queue pattern.
 
 
 Graph / Topological & Shortest-Path (6)
-Course Schedule – detect cycle via topo indegree; core DAG pattern.
+[✔]    Course Schedule – detect cycle via topo indegree; core DAG pattern.
 
-Course Schedule II – topo ordering output variant.
+[✔]    Course Schedule II – topo ordering output variant.
 
 Clone Graph – BFS/DFS with hash map for aliasing.
 
