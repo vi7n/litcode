@@ -36,7 +36,7 @@ Arrays / Two-Pointer & Prefix (8)
 
 [✔]    3Sum – sort + two-pointer + de-dup.
 
-Subarray Sum Equals K – prefix sum + hash counts (handles negatives).
+[✔]    Subarray Sum Equals K – prefix sum + hash counts (handles negatives).
 
 Product of Array Except Self – prefix/suffix sweep, O(1) extra space.
 
@@ -63,7 +63,7 @@ Reconstruct Itinerary – Eulerian path / lexical priority using multiset graph.
 
 Network Delay Time – Dijkstra w/ priority_queue.
 
-Alien Dictionary – topo from precedence constraints + cycle detect.
+[HARD]    Alien Dictionary – topo from precedence constraints + cycle detect.
 
 
 
