@@ -38,7 +38,7 @@ Arrays / Two-Pointer & Prefix (8)
 
 [✔]    Subarray Sum Equals K – prefix sum + hash counts (handles negatives).
 
-Product of Array Except Self – prefix/suffix sweep, O(1) extra space.
+[✔]    Product of Array Except Self – prefix/suffix sweep, O(1) extra space.
 
 Minimum Size Subarray Sum – sliding window for ≥ target (positives).
 
