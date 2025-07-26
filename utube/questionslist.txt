@@ -44,7 +44,7 @@ Minimum Size Subarray Sum – sliding window for ≥ target (positives).
 
 Search in Rotated Sorted Array – modified binary search invariants.
 
-Trapping Rain Water – two-pointer vs. prefix-max arrays; spatial reasoning.
+[✔]    Trapping Rain Water – two-pointer vs. prefix-max arrays; spatial reasoning.
 
 Merge Intervals – sort + merge sweep; interval reasoning.
 
