@@ -87,7 +87,7 @@ Kth Largest Element in an Array – heap vs. quickselect trade-offs.
 
 Find Median from Data Stream – two heaps w/ balance.
 
-Top K Frequent Elements – frequency map + heap / bucket.
+[✔]    Top K Frequent Elements – frequency map + heap / bucket.
 
 Task Scheduler – greedy counts + idle slots or heap simulation.
 
@@ -147,13 +147,13 @@ Shortest Path in Binary Matrix ← BFS with 8-dirs + distance count.
 Escape Large Maze ← BFS with pruning / boundary conditions.
 
 Arrays → Variants
-3Sum Closest ← tweak scoring in 3Sum.
+[✔]    3Sum Closest ← tweak scoring in 3Sum.
 
 Kth Missing Positive Number ← binary search gaps; sorted arr reasoning.
 
-Container With Most Water ← two-pointer area maximization.
+[✔]    Container With Most Water ← two-pointer area maximization.
 
-Best Time to Buy and Sell Stock II ← greedy accumulation; pattern for profit scanning.
+[✔]    Best Time to Buy and Sell Stock II ← greedy accumulation; pattern for profit scanning.
 
 Longest Consecutive Sequence ← hash set sequence growth.
 
@@ -323,6 +323,15 @@ Lowest Common Ancestor of a BST – (Find LCA in BST by utilizing BST properties
 Implement Trie (Prefix Tree) – (Design a Trie data structure for words)
 Add and Search Word (Data Structure Design) – (Design a Word Dictionary with wildcard support using Trie)
 Word Search II – (Find all words from a list in a grid, using Trie + DFS/backtracking)
+
+Heap / Selection (4)
+Kth Largest Element in an Array – heap vs. quickselect trade-offs.
+
+[✔]    Top K Frequent Elements – frequency map + heap / bucket.
+
+Task Scheduler – greedy counts + idle slots or heap simulation.
+
+Diameter of Binary Tree – depth recursion returning (height, diameter).
 
 
 10. Heap (Priority Queue)
