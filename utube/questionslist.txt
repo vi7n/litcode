@@ -42,11 +42,11 @@ Arrays / Two-Pointer & Prefix (8)
 
 Minimum Size Subarray Sum – sliding window for ≥ target (positives).
 
-Search in Rotated Sorted Array – modified binary search invariants.
+[✔]    Search in Rotated Sorted Array – modified binary search invariants.
 
 [✔]    Trapping Rain Water – two-pointer vs. prefix-max arrays; spatial reasoning.
 
-Merge Intervals – sort + merge sweep; interval reasoning.
+[✔]    Merge Intervals – sort + merge sweep; interval reasoning.
 
 Sliding Window Maximum – deque monotonic queue pattern.
 

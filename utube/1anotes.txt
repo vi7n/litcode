@@ -13,6 +13,11 @@ unordered_set<string> st
     st.erase()
 
 
+unordered_map<int, int> myMap;
+    myMap.insert({1,0})
+    myMap[1] = 0
+
+
 stack<char> st;
     st.top()
     st.push()
