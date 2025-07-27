@@ -201,3 +201,132 @@ HARD PROBLEMS:
 
 716 · Max Stack (and occasionally 
 895 · Maximum Frequency Stack)
+
+
+
+
+
+
+75 from deepresearch
+
+
+1. Array
+[✔]    Two Sum
+
+[✔]    Best Time to Buy and Sell Stock
+
+[✔]    Contains Duplicate
+
+[✔]    Product of Array Except Self
+
+[✔]    Maximum Subarray
+
+[✔]    Maximum Product Subarray
+
+[✔]    Find Minimum in Rotated Sorted Array
+
+[✔]    Search in Rotated Sorted Array
+
+[✔]    3Sum
+
+[✔]    Container With Most Water
+
+
+2. Binary (Bit Manipulation)
+Sum of Two Integers – (Implement addition without + using bit operations)
+Number of 1 Bits – (Count set bits in an integer, a.k.a. Hamming weight)
+Counting Bits – (Count set bits for all numbers up to n, often using DP or bit tricks)
+Missing Number – (Find the missing number in 0..n, often using XOR or Gauss sum)
+Reverse Bits – (Reverse the bit order of a 32-bit integer)
+
+
+3. Dynamic Programming
+Climbing Stairs – (Basic DP: ways to climb 1 or 2 steps at a time)
+
+Coin Change – (DP to make change with minimum coins)
+
+Longest Increasing Subsequence – (Classic DP or patience sorting method)
+
+[✔]    Longest Common Subsequence – (DP for LCS problem)
+
+Word Break – (DP to check if a string can be segmented into dictionary words)
+
+Combination Sum – (Backtracking/DFS to find combinations summing to target)
+
+House Robber – (DP to maximize non-adjacent house loot)
+House Robber II – (Variation of House Robber on a circular arrangement)
+Decode Ways – (DP to count decodings of a digit string)
+Unique Paths – (Combinatorics or DP for grid paths count)
+Jump Game – (Greedy or DP to check if you can reach the end of array)
+
+
+4. Graph / Tree (Graph Algorithms)
+Clone Graph – (DFS/BFS to copy a graph)
+[✔]    Course Schedule – (Topological sort to detect if all courses can be finished)
+[✔]    Pacific Atlantic Water Flow – (Matrix DFS/BFS from ocean boundaries)
+[✔]    Number of Islands – (DFS/BFS to count connected components in grid)
+[✔]    Longest Consecutive Sequence – (Use HashSet to find longest consecutive integer sequence)
+Alien Dictionary (LeetCode Premium) – (Topological sort for custom alphabet order)
+Graph Valid Tree (LeetCode Premium) – (Union-Find or DFS to check if acyclic connected graph)
+Number of Connected Components in an Undirected Graph (LeetCode Premium) – (Union-Find or DFS to count components)
+
+
+5. Interval Scheduling/Merging
+Insert Interval – (Insert an interval into sorted intervals and merge overlaps)
+[✔]    Merge Intervals – (Merge overlapping intervals in a list)
+Non-overlapping Intervals – (Erase minimum intervals to avoid overlaps, greedy scheduling)
+Meeting Rooms (LeetCode Premium) – (Check if a person can attend all meetings, sort intervals)
+Meeting Rooms II (LeetCode Premium) – (Minimum number of conference rooms required, use min-heap)
+
+
+6. Linked List
+Reverse Linked List – (Iterative or recursive reversal of a singly linked list)
+Detect Cycle in Linked List – (Floyd’s cycle-finding algorithm – tortoise & hare)
+Merge Two Sorted Lists – (Merge two sorted linked lists into one sorted list)
+Merge K Sorted Lists – (Use a min-heap or divide-and-conquer to merge k lists)
+Remove Nth Node From End – (Two-pointer technique to remove nth from end in one pass)
+Reorder List – (Reorder L0→L_last→L1→L_last-1… by splitting and merging list)
+
+
+7. Matrix
+Set Matrix Zeroes – (Mark rows/cols to zero out in a matrix in-place)
+Spiral Matrix – (Traverse matrix in spiral order)
+Rotate Image – (Rotate matrix by 90 degrees in-place)
+Word Search – (Backtracking DFS to find a word in a grid)
+
+
+8. String
+[✔]    Longest Substring Without Repeating Characters – (Sliding window technique for max unique-substring length)
+[✔]    Longest Repeating Character Replacement – (Sliding window with character counts for replacement operations)
+Minimum Window Substring – (Sliding window to find the smallest substring containing all target chars)
+[✔]    Valid Anagram – (Check if two strings are anagrams – frequency counting)
+[✔]    Group Anagrams – (Use sorted string or count signature as key to group anagram lists)
+[✔]    Valid Parentheses – (Use a stack to validate matching parentheses)
+[✔]    Valid Palindrome – (Two-pointer check for palindrome, ignoring non-alphanumeric)
+Longest Palindromic Substring – (Expand-around-center or DP to find longest palindrome in a string)
+Palindromic Substrings – (Count all palindromic substrings in a string)
+Encode and Decode Strings (LeetCode Premium) – (Design an encoding scheme to serialize/de-serialize a list of strings)
+
+
+9. Tree / Binary Search Tree
+Maximum Depth of Binary Tree – (DFS to find tree height)
+Same Tree – (Check if two binary trees are identical by DFS)
+Invert/Flip Binary Tree – (Swap children of every node – classic invert binary tree)
+Binary Tree Maximum Path Sum – (DFS track max path through each node, consider splits)
+Binary Tree Level Order Traversal – (BFS by levels of the tree)
+Serialize and Deserialize Binary Tree – (Encode tree to string and decode back, BFS or DFS)
+Subtree of Another Tree – (Check if one tree is a subtree of another)
+Construct Binary Tree from Preorder and Inorder Traversal – (Reconstruct a tree using preorder & inorder arrays)
+Validate Binary Search Tree – (Inorder traversal or recursion to verify BST property)
+Kth Smallest Element in a BST – (Inorder traversal (BST gives sorted order) to find kth item)
+Lowest Common Ancestor of a BST – (Find LCA in BST by utilizing BST properties)
+Implement Trie (Prefix Tree) – (Design a Trie data structure for words)
+Add and Search Word (Data Structure Design) – (Design a Word Dictionary with wildcard support using Trie)
+Word Search II – (Find all words from a list in a grid, using Trie + DFS/backtracking)
+
+
+10. Heap (Priority Queue)
+[✔]    Top K Frequent Elements – (Use a heap or bucket counting to get k most frequent numbers)
+Find Median from Data Stream – (Maintain two heaps for lower and higher halves to get median in O(log n))
+
+(Note: “Merge K Sorted Lists” was already listed under Linked List, and it’s often solved via a min-heap as well.)
